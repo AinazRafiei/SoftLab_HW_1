@@ -1,10 +1,8 @@
-# todo telegeram bot implement here
 
-import os
-import random
-import logging
+
+
 import telebot
-
+print("bot started")
 TOKEN = '6261438264:AAHYs2yUmBmISRrMWQBKrTdmH-_1xARawyg'
 URL = f'https://api.telegram.org/bot{TOKEN}/getFile?file_id='
 
@@ -26,5 +24,6 @@ def send_help(message):
 def send_text(message):
     bot.reply_to(message, message.text)
 
-
+print("bot is polling")
 bot.infinity_polling()
+#bot.polling(none_stop=False, timeout=123)
