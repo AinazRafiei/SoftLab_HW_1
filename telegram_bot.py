@@ -1,6 +1,3 @@
-
-
-
 import telebot
 print("bot started")
 TOKEN = '6261438264:AAHYs2yUmBmISRrMWQBKrTdmH-_1xARawyg'
@@ -26,4 +23,3 @@ def send_text(message):
 
 print("bot is polling")
 bot.infinity_polling()
-#bot.polling(none_stop=False, timeout=123)
