@@ -19,7 +19,9 @@ def send_welcome(message):
 def send_help(message):
     bot.send_message(message.chat.id, "هر چیزی که میخوای تایپ کن!")
 
-
+@bot.message_handler(commands=['intro'])
+def send_help(message):
+    bot.send_message(message.chat.id, "این بات تمرین اول آز نرم هست")
 @bot.message_handler(content_types=['text'])
 def send_text(message):
     bot.reply_to(message, message.text)
