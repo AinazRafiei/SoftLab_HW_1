@@ -18,7 +18,7 @@
 ### استفاده از github
   با توجه به اهداف ذکر شده برای این پروژه مسائل زیر در حین انجام پروژه مورد توجه قرار گرفتند.
   - آزمایش کردن conflict در دو حالت، حالت push بدون استفاده از آخرین نسخه و همچنین حالت تغییرات نادرست branch ها هنگام merge کردن.
-  ![conflict](<img width="742" alt="conflict1" src="https://user-images.githubusercontent.com/58518166/224382856-b2ec4067-3d01-45a0-9471-5594d9754e3e.png"> "conflict1")
+![Conflict]( https://user-images.githubusercontent.com/58518166/224383216-09dcf263-fa68-4310-940d-6f47b525c819.png "Conflict")
   - استفاده از branch جدید برای اضافه کردن ویژگی انداختن تاس
 
 
